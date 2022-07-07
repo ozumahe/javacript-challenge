@@ -17,3 +17,15 @@ function formatDate(n) {
 }
 
 // console.log(humanReadable(383799));
+
+/*
+Your task is to find the nearest square number, nearest_sq(n), of a positive integer n.
+*/
+
+function nearestSq(n) {
+  return Math.pow(Math.round(Math.sqrt(n)), 2);
+}
+
+// console.log(nearestSq(117)); // 121
+// console.log(nearestSq(900)); // 900
+// console.log(nearestSq(15)); // 16
